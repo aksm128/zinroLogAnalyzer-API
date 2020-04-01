@@ -1,5 +1,6 @@
 # Overview
 人狼Onlineのログをスクレイピングしたデータを扱うAPIです。  
+URL: https://zinrologanalyzerapi.herokuapp.com/  
 ~~クソコードクソ設計ガバ英語だけどもう書き直したくないですゆるして~~
 
 # 説明
@@ -145,7 +146,6 @@ return: {"finalLogDate": "YYYY年MM月DD日"}
 Method: GET, POST  
 arguments: {"num": int}  
 return: Dict(ログ情報の連想配列)  
-
 
 
 - /analyzer/getData  
